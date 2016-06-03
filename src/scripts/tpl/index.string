@@ -1,0 +1,99 @@
+<div class="m-index">
+  <header>
+    <ul>
+      <li>
+        <i class="yo-ico">&#xe694;</i>
+      </li>
+      <li>
+        <input type="text" id="header-txt" placeholder="请输入你想搜索的商品" />
+      </li>
+      <li>
+        <i class="yo-ico">&#xe694;</i>
+        <b>消息</b>
+      </li>
+    </ul>
+  </header>
+  <section id="index-scroll" spa-widget="scroll">
+  	<div>
+  	<div class="swiper-container banner">
+				<div class="swiper-wrapper">
+		        <div class="swiper-slide"><img src="/nong1hao/images/banner1.jpg"/></div>
+		        <div class="swiper-slide"><img src="/nong1hao/images/banner1.jpg"/></div>
+		        <div class="swiper-slide"><img src="/nong1hao/images/banner1.jpg"/></div>
+		    </div>
+		    <div class="swiper-pagination"></div>
+		</div>
+  	<div class="nav">
+  		<ul>
+  			<li>
+  				<i><img src="/nong1hao/images/wenzhuanjia.png"/></i>
+  				<b>问专家</b>
+  			</li>
+  			<li>
+  				<i><img src="/nong1hao/images/maidapai.png"/></i>
+  				<b>买大牌</b>
+  			</li>
+  			<li>
+  				<i><img src="/nong1hao/images/wodeyouhuijuan_h.png"/></i>
+  				<b>我的优惠劵</b>
+  			</li>
+  			<li>
+  				<i><img src="/nong1hao/images/meiriqiandao.png"/></i>
+  				<b>每日签到</b>
+  			</li>
+  		</ul>
+  	</div>
+  	<div class="prodect">
+  		<ul>
+  			<li>
+  				<div class="top">
+	  				<h1>种植套餐</h1>
+	  				<p>&nbsp;&nbsp;&nbsp;新农道豪华套施宝B适用作物</p>
+	  			</div>
+	  			<div>
+	  				<div class="left1">
+	  					<img src="/nong1hao/images/meal_free.png"/>
+	  					<b>￥666.00</b>
+	  					<i>￥826.00</i>
+	  				</div>
+	  				<div class="right1">
+	  					<img src="/nong1hao/images/ic_launcher.png"/>
+	  					<img src="/nong1hao/images/ic_launcher.png"/>
+	  				</div>
+	  			</div>
+  			</li>
+  			<li>
+  				<div>
+	  				<h1>种植套餐</h1>
+	  				<p>&nbsp;&nbsp;&nbsp;新农道豪华套施宝B适用作物</p>
+	  			</div>
+  			</li>
+  		</ul>
+  	</div>
+  	<div class="bottom">
+  		
+  	</div>
+  	
+  	</div>
+  </section>
+  <footer>
+    <ul>
+      <li>
+        <i class="yo-ico">&#xe641;</i>
+        <b>首页</b>
+      </li>
+      <li>
+        <i class="yo-ico">&#xe601;</i>
+        <b>分类</b>
+      </li>
+      <li>
+        <i class="yo-ico">&#xe69d;</i>
+        <b>购物车</b>
+      </li>
+      <li action-type="exit">
+        <i class="yo-ico">&#xe605;</i>
+        <b>我的</b>
+      </li>
+    </ul>
+  </footer>
+</div>

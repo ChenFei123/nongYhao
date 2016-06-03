@@ -1,0 +1,225 @@
+.m-index {
+  width: 100%;
+  height: 100%;
+  background: #fff;
+  @include flexbox();
+  @include flex-direction(column);
+  & > * {
+    width: 100%;
+  }
+  header {
+    background: $base-color;
+    height: .52rem;
+    ul {
+      width: 100%;
+      height: 100%;
+      @include flexbox();
+      li:nth-child(1) {
+        width: .45rem;
+        line-height: .52rem;
+        text-align: center;
+        i{
+            font-size: .3rem;
+            color: #fff;
+        }
+      }
+      li:nth-child(2) {
+        @include flex();
+        @include flexbox();
+        @include align-items(center);
+        @include justify-content(center);
+        input{
+          background: #F79E8C url(/nong1hao/images/sousuo_white.png) no-repeat;
+          background-size: .3rem .3rem;
+          text-indent: .28rem;
+          display: inline-block;
+          width: 5.9rem;
+          height: .31rem;
+          line-height: .31rem;
+          font-size: .14rem;
+          border: none;
+          border-radius: .03rem;
+          font-weight: 600;
+          color: rgba(255,255,255, 1);
+          letter-spacing: .02rem;
+        }
+        input::-webkit-input-placeholder {
+            color: #FFFFFF !important;
+        }
+      }
+      li:nth-child(3) {
+        width: .45rem;
+        height: .52rem;
+        text-align: center;
+        i{  
+            display: block;
+            height: 30px;
+            line-height: 40px;
+            font-size: .2rem;
+            color: #fff;
+        }
+        b{
+            display: block;
+            font-size: .11rem;
+            color: #fff;
+            font-weight: normal;
+        }
+      }
+    }
+  }
+  section {
+    @include flex();
+    width: 100%;
+    overflow: hidden;
+    div:nth-child(1){
+        height: 1.93rem;
+        background: #fff;
+        img{
+            width: 100%;
+            height: 1.93rem;
+        }
+    }
+    .nav{
+        height: 1.02rem;
+        background-color: #fff;
+        border-bottom: .1rem solid #F3F3F3;
+        text-align: center;
+        ul {
+            width: 100%;
+            @include flexbox();
+            li {
+                @include flex();
+                i, b {
+                  display: block;
+                  font-weight: normal;
+                }
+                i {
+                  margin-top: .15rem;
+                  img {
+                    width: .45rem;
+                    height: .45rem;
+                  }
+                }
+                b {
+                  margin-top: .1rem;
+                  font-size: .11rem;
+                }
+              }
+         }    
+    }
+    .prodect{
+        width: 100%;
+        height: 2.08rem;
+        ul {
+          width: 100%;
+          height: 100%;
+          @include flexbox();
+          li {
+            @include flex();
+            width: 50%;
+            height: 2.08rem;
+            background: red;
+            @include box-sizing(border-box);
+            @include border(0 0 1px 0, #E1E1E1);
+            &:nth-child(1){
+                @include box-sizing(border-box);
+                @include border(0 1px 1px 0, #E1E1E1);
+            }
+            .top{
+                padding-top: .2rem;
+                width: 100%;
+                height: .6rem;
+                h1{
+                    margin-left: .1rem;
+                    font-size: .18rem;
+                    color: #E53746;
+                }
+                p{  
+                    margin-top: .05rem;
+                    width: 100%;
+                    white-space: nowrap;
+                    overflow: hidden;
+                    text-overflow: ellipsis;
+                    color: #C7C7C7;
+                    font-size: .14rem;
+                }
+            }
+            div:nth-child(2){
+              width: 100%;
+              height: 1.28rem;
+              .left1{
+                  width: 45%;
+                  height: 1.28rem;
+                  float: left;
+                  img{
+                    width: .4rem;
+                    height: .4rem;
+                    margin-left: .1rem;
+                  }
+                  b{  
+                      display: block;
+                      margin-top: .2rem;
+                      margin-bottom: .05rem;
+                      font-size: .14rem;
+                      color: #E00900;
+                      margin-left: .1rem;
+                  }
+                  i{
+                    display: block;
+                    font-size: .12rem;
+                    color: #CFCFCF;
+                    margin-left: .1rem; 
+                    text-decoration: line-through; 
+                  }
+              }
+              .right1{
+                  width: 55%;
+                  height: 1.28rem;
+                  float: left;
+                img{
+                  width: .2rem;
+                  height: .2rem;
+                }
+              }
+            }
+          } 
+        }
+    }
+  }
+  footer {
+    height: .58rem;
+    background: #4E4D49;
+    ul {
+      width: 100%;
+      height: 100%;
+      @include box-sizing(border-box);
+      @include border(1px 0 0 0, #d9d9d9);
+      @include flexbox();
+      li {
+        position: relative;
+        @include flex();
+        @include flexbox();
+        @include align-items(center);
+        @include justify-content(center);
+        @include flex-direction(column);
+        &.active b,
+        &.active i {
+          color: $base-color !important;
+        }
+        b, i {
+          display: block;
+          color: #fff;
+          font-weight: normal;
+        }
+        i {
+          font-size: .22rem;
+          line-height: .22rem;
+        }
+        b {
+          margin-top: .05rem;
+          font-size: .1rem;
+        }
+      }
+    }
+  }
+}

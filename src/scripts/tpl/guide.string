@@ -1,0 +1,8 @@
+<div class="swiper-container" id="guide-swiper">
+  <div class="swiper-wrapper">
+    <div class="swiper-slide"><img src="/nong1hao/images/first1.png" /></div>
+    <div class="swiper-slide"><img src="/nong1hao/images/first2.png" /></div>
+    <div class="swiper-slide"><img src="/nong1hao/images/first3.png" /></div>
+    <div class="swiper-slide" action-type="goto.index"><img src="/nong1hao/images/first4.png" /></div>
+  </div>
+</div>
